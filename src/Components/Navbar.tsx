@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className='sticky top-0 z-50 bg-white shadow-md flex justify-between items-center px-6 py-2 md:px-10'>
         <div className='flex items-center gap-2 whitespace-nowrap'>
           <Image src="/images/logo.png" alt="logo" height={65} width={70} />
-          <h1 className='md:text-2xl font-medium'>AlgoCodic Solutionnnnnnnnnnnnnnnnn</h1>
+          <h1 className='md:text-2xl font-medium'>AlgoCodic Solution</h1>
         </div>
 
         {/* Hamburger Icon for Mobile */}
@@ -78,7 +78,6 @@ const Navbar = () => {
             </li>
             <Link href="/Courses" onClick={toggleMobileMenu} className='text-base font-medium leading-[25px] text-white hover:text-blue-300'>Courses</Link>
             <Link href="/career" onClick={toggleMobileMenu} className='text-base font-medium leading-[25px] text-white hover:text-blue-300'>Career</Link>
-            <Link href="/Tools" onClick={toggleMobileMenu} className='text-base font-medium leading-[25px] text-white hover:text-blue-300'>Tools</Link>
           </ul>
         </div>
 
