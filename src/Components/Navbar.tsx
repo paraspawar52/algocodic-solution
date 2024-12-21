@@ -58,9 +58,7 @@ const Navbar = () => {
           <li>
             <Link href="/career" className='text-base font-medium leading-[25px] hover:text-blue-300'>Career</Link>
           </li>
-          <li>
-            <Link href="/Tools" className='text-base font-medium leading-[25px] hover:text-blue-300'>Tools</Link>
-          </li>
+
         </ul>
 
         {/* Mobile Menu */}
